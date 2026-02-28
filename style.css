@@ -9,4 +9,44 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+h2 {
+  width: fit-content;
+  height: fit-content;
+  background: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  text-align: center;
+  padding: 16px 32px 15px;
+  margin-left: -16px;
+  margin-top: 0;
+}
+
+.title {
+  width: 180px;
+  height: 38px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+header {
+  padding: 70px;
+}
+
+main {
+  background: hsl(0deg, 0%, 40%);
+  padding: 70px;
+
+  @media (max-width: 1024px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.card {
+  background: hsl(0deg, 0%, 100%);
+  padding: 8px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
